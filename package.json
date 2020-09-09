@@ -1,0 +1,17 @@
+{
+  "name": "tiktok-backend",
+  "version": "1.0.0",
+  "description": "tikTok backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "author": "Aditya Pathre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.42.13",
+    "mongoose": "^5.10.3"
+  }
+}
