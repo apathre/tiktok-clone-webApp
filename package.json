@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "tikTok backend",
   "main": "server.js",
+  "engines":{
+    "node":">=13.x.x",
+    "npm":">=3.9.5"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "server.js"
+    "start": "node server.js"
   },
   "author": "Aditya Pathre",
   "license": "ISC",
